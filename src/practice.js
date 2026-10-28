@@ -1,0 +1,3 @@
+export function generateQuiz(lessons,count=10,rng=Math.random){if(!Array.isArray(lessons)||lessons.length===0)return[];const pool=[...lessons];for(let i=pool.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}return pool.slice(0,Math.min(Math.max(0,count),pool.length)).map(lesson=>({lessonId:lesson.id,midi:lesson.midi,clef:lesson.clef}))}
+export function isAnswerCorrect(question,selectedMidi){return Number.isInteger(Number(selectedMidi))&&Number(question?.midi)===Number(selectedMidi)}
+export function summarizeQuiz(answers=[]){const total=answers.length,score=answers.reduce((sum,a)=>sum+(a.correct?1:0),0);return{score,total,accuracy:total?Math.round(score/total*100):0,answers:[...answers]}}
