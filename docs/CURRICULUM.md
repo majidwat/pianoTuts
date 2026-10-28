@@ -6,12 +6,12 @@
 | Treble clef spaces | F4, A4, C5, E5 |
 | Bass clef lines | G2, B2, D3, F3, A3 |
 | Bass clef spaces | A2, C3, E3, G3 |
-| Ledger notes | C4, C3, A3, E2 |
+| Ledger notes | C4 below treble, C4 above bass, A3 below treble, E2 below bass |
 | Octave identity | G3, G4, G5 |
 | Chromatic notes | C♯4, D♯4, F♯4, G♯4, A♯4 |
 | Mixed review | C4 and A4 |
 
-The course currently includes 32 lessons across eight learning groups.
+C3 is the second space of the bass staff (not a ledger note). The course currently includes 32 lessons across eight learning groups.
 
 ## Music conventions
 

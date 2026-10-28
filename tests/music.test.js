@@ -7,3 +7,5 @@ test("curriculum has expected independent clef groups and unique lessons",()=>{a
 test("treble and bass line positions match diatonic staff",()=>{assert.deepEqual([64,67,71,74,77].map(m=>staffStep(m,"treble")),[0,2,4,6,8]);assert.deepEqual([43,47,50,53,57].map(m=>staffStep(m,"bass")),[0,2,4,6,8])});
 test("staff renderer supports hidden quiz label and ledger C4",()=>{assert.match(renderStaff(60,"treble",{showLabel:false}),/Identify the note/);assert.match(renderStaff(60,"treble"),/y1="120"/);assert.match(renderStaff(64,"treble"),/E4/)});
 test("sharp note is represented in staff glyph",()=>{assert.match(renderStaff(61,"treble"),/♯/);assert.equal(midiToNote(61).name,"C♯")});
+
+test("staff spaces and ledger positions use correct diatonic steps",()=>{assert.deepEqual([65,69,72,76].map(m=>staffStep(m,"treble")),[1,3,5,7]);assert.deepEqual([45,48,52,55].map(m=>staffStep(m,"bass")),[1,3,5,7]);assert.equal(staffStep(60,"treble"),-2);assert.equal(staffStep(60,"bass"),10);assert.match(renderStaff(60,"bass"),/y1="18"/)});
