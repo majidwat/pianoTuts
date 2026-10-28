@@ -8,7 +8,10 @@
 | Bass clef spaces | A2, C3, E3, G3 |
 | Ledger notes | C4, C3, A3, E2 |
 | Octave identity | G3, G4, G5 |
+| Chromatic notes | C♯4, D♯4, F♯4, G♯4, A♯4 |
 | Mixed review | C4 and A4 |
+
+The course currently includes 32 lessons across seven learning groups.
 
 ## Music conventions
 
