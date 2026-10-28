@@ -30,6 +30,8 @@ npm test
 
 ## Documentation
 
+- [User guide (Persian / English)](docs/USER_GUIDE.md)
+
 - [Architecture](docs/ARCHITECTURE.md)
 - [Curriculum and music conventions](docs/CURRICULUM.md)
 
