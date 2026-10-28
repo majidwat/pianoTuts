@@ -19,7 +19,7 @@ Then open http://localhost:8080. ES modules and Web Audio work in modern browser
 - Inline SVG notation rendering; no external notation image dependencies.
 - Full 88-key piano range (MIDI 21/A0 through MIDI 108/C8).
 - Synthesized note playback and exact MIDI/octave-sensitive answer checking.
-- Lesson navigation and local browser progress persistence.
+- Lesson navigation, versioned browser progress, per-note attempt/accuracy stats, and saved assessment summaries.
 - Responsive layout, focus states, and reduced-motion support.
 
 ## Tests
