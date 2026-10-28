@@ -25,7 +25,7 @@ Then open http://localhost:8080. ES modules and Web Audio work in modern browser
 ## Tests
 
 ```bash
-npm test
+npm run check
 ```
 
 ## Documentation

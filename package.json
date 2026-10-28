@@ -1,1 +1,1 @@
-{"name":"naghmeh-piano-learning","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test"},"engines":{"node":">=18"}}
+{"name":"naghmeh-piano-learning","version":"1.1.0","private":true,"type":"module","scripts":{"test":"node --test","check":"node --check src/app.js && node --check src/music.js && node --check src/curriculum.js && npm test"},"engines":{"node":">=18"}}
