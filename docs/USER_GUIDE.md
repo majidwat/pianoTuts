@@ -16,7 +16,7 @@
 - از فهرست سمت راست/چپ گروه درس را انتخاب کنید.
 - نت روی خطوط حامل نمایش داده می‌شود؛ برای شنیدن آن «شنیدن نت» را بزنید.
 - کلید متناظر را روی پیانوی مجازی انتخاب کنید. تشخیص پاسخ با MIDI انجام می‌شود، بنابراین اکتاو هم باید درست باشد.
-- با «تکمیل درس» می‌توانید درس را دستی تکمیل کنید؛ پاسخ صحیح هم آن را ثبت می‌کند.
+- پاسخ صحیح درس را تکمیل می‌کند؛ «تمرین دوباره» برای تکرار تمرین بدون حذف سابقه است.
 - «تمرین تصادفی» آزمون ۱۰ سوالی را بدون نمایش نام نت آغاز می‌کند.
 - از EN/فا برای جابه‌جایی زبان و جهت صفحه استفاده کنید.
 
@@ -44,7 +44,7 @@ Open `http://localhost:8080`. Node.js 18+ is required to run `npm test`.
 - Choose a curriculum group and lesson from the navigation.
 - Read the staff note; press “Hear note” to listen.
 - Select the corresponding virtual piano key. Answers are MIDI- and octave-sensitive.
-- Correct answers mark a lesson complete; “Complete lesson” can also be used manually.
+- A correct answer completes the lesson; “Repeat practice” lets you try again without erasing history.
 - “Random practice” starts a 10-question quiz that hides the note name.
 - Switch Persian/English using the language control.
 
