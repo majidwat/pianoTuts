@@ -1,0 +1,12 @@
+{
+  "name": "Naghmeh Piano Learning",
+  "short_name": "Naghmeh",
+  "description": "Learn to read piano notes in Persian and English.",
+  "lang": "fa",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c1019",
+  "theme_color": "#101522",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
