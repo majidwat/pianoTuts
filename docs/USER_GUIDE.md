@@ -17,7 +17,7 @@
 - نت روی خطوط حامل نمایش داده می‌شود؛ برای شنیدن آن «شنیدن نت» را بزنید.
 - کلید متناظر را روی پیانوی مجازی انتخاب کنید. تشخیص پاسخ با MIDI انجام می‌شود، بنابراین اکتاو هم باید درست باشد.
 - پاسخ صحیح درس را تکمیل می‌کند؛ «تمرین دوباره» برای تکرار تمرین بدون حذف سابقه است.
-- درس‌های ریتم کشش نت‌ها و سکوت‌ها را نیز مرحله‌به‌مرحله آموزش می‌دهند؛ در این درس‌ها نماد درست را انتخاب کنید.\n- «تمرین تصادفی» آزمون ۱۰ سوالی را بدون نمایش نام نت آغاز می‌کند.
+- درس‌های ریتم کشش نت‌ها و سکوت‌ها را نیز مرحله‌به‌مرحله آموزش می‌دهند؛ در این درس‌ها نماد درست را انتخاب کنید.\n- درس‌های بمل نیز جایگاه دقیق نت‌های D♭، E♭، G♭، A♭ و B♭ را با املای درست روی حامل نشان می‌دهند.\n- «تمرین تصادفی» آزمون ۱۰ سوالی را بدون نمایش نام نت آغاز می‌کند.
 - از EN/فا برای جابه‌جایی زبان و جهت صفحه استفاده کنید.
 
 ### ذخیره و آفلاین
@@ -45,7 +45,7 @@ Open `http://localhost:8080`. Node.js 18+ is required to run `npm test`.
 - Read the staff note; press “Hear note” to listen.
 - Select the corresponding virtual piano key. Answers are MIDI- and octave-sensitive.
 - A correct answer completes the lesson; “Repeat practice” lets you try again without erasing history.
-- Rhythm lessons cover note values and rests; choose the matching symbol when prompted.\n- “Random practice” starts a 10-question quiz that hides the note name.
+- Rhythm lessons cover note values and rests; choose the matching symbol when prompted.\n- Flat-note lessons show D♭, E♭, G♭, A♭, and B♭ with their correct letter positions on the staff.\n- “Random practice” starts a 10-question quiz that hides the note name.
 - Switch Persian/English using the language control.
 
 ### Progress and offline

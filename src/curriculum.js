@@ -7,4 +7,10 @@ const l=(id,clef,midi,en,fa,hintEn,hintFa)=>({id,clef,midi,en,fa,hintEn,hintFa})
 {...l("rest-whole","treble",60,"Whole rest · 4 beats","سکوت گرد · ۴ ضرب","A whole rest means silence for four beats.","سکوت گرد یعنی چهار ضرب سکوت."),kind:"rhythm",rhythmId:"whole-rest",symbol:"𝄻",value:4,isRest:true},
 {...l("rest-half","treble",60,"Half rest · 2 beats","سکوت سفید · ۲ ضرب","A half rest means silence for two beats.","سکوت سفید یعنی دو ضرب سکوت."),kind:"rhythm",rhythmId:"half-rest",symbol:"𝄼",value:2,isRest:true},
 {...l("rest-quarter","treble",60,"Quarter rest · 1 beat","سکوت سیاه · ۱ ضرب","A quarter rest means silence for one beat.","سکوت سیاه یعنی یک ضرب سکوت."),kind:"rhythm",rhythmId:"quarter-rest",symbol:"𝄽",value:1,isRest:true}
+]},{id:"flats",name:"Flats · Black keys",fa:"نت‌های بمل · کلیدهای سیاه",lessons:[
+{...l("flat-Db4","treble",61,"D♭4 · D flat","ر بمل · D♭4","D♭ is one semitone below D4 and is written on the D staff position.","ر بمل یک نیم‌پرده پایین‌تر از ر4 است و جایگاه حرف ر را روی حامل دارد."),spelling:"D♭"},
+{...l("flat-Eb4","treble",63,"E♭4 · E flat","می بمل · E♭4","E♭ is one semitone below E4; its notehead stays on the E line.","می بمل یک نیم‌پرده پایین‌تر از می4 است و روی خط می نوشته می‌شود."),spelling:"E♭"},
+{...l("flat-Gb4","treble",66,"G♭4 · G flat","سل بمل · G♭4","G♭ is one semitone below G4 and uses the G staff position.","سل بمل یک نیم‌پرده پایین‌تر از سل4 است و جایگاه سل را دارد."),spelling:"G♭"},
+{...l("flat-Ab4","treble",68,"A♭4 · A flat","لا بمل · A♭4","A♭ is one semitone below A4 and uses the A staff position.","لا بمل یک نیم‌پرده پایین‌تر از لا4 است و جایگاه لا را دارد."),spelling:"A♭"},
+{...l("flat-Bb4","treble",70,"B♭4 · B flat","سی بمل · B♭4","B♭ is one semitone below B4 and uses the B staff position.","سی بمل یک نیم‌پرده پایین‌تر از سی4 است و جایگاه سی را دارد."),spelling:"B♭"}
 ]}];export const LESSONS=GROUPS.flatMap(g=>g.lessons);
