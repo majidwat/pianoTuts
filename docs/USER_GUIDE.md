@@ -17,11 +17,11 @@
 - نت روی خطوط حامل نمایش داده می‌شود؛ برای شنیدن آن «شنیدن نت» را بزنید.
 - کلید متناظر را روی پیانوی مجازی انتخاب کنید. تشخیص پاسخ با MIDI انجام می‌شود، بنابراین اکتاو هم باید درست باشد.
 - پاسخ صحیح درس را تکمیل می‌کند؛ «تمرین دوباره» برای تکرار تمرین بدون حذف سابقه است.
-- «تمرین تصادفی» آزمون ۱۰ سوالی را بدون نمایش نام نت آغاز می‌کند.
+- درس‌های ریتم کشش نت‌ها و سکوت‌ها را نیز مرحله‌به‌مرحله آموزش می‌دهند؛ در این درس‌ها نماد درست را انتخاب کنید.\n- «تمرین تصادفی» آزمون ۱۰ سوالی را بدون نمایش نام نت آغاز می‌کند.
 - از EN/فا برای جابه‌جایی زبان و جهت صفحه استفاده کنید.
 
 ### ذخیره و آفلاین
-- پیشرفت درس‌ها در localStorage همان مرورگر ذخیره می‌شود؛ حساب کاربری یا همگام‌سازی ابری وجود ندارد.
+- پروفایل‌های هنرجو، پیشرفت، تلاش‌ها و نتایج آزمون در localStorage همان مرورگر ذخیره می‌شوند. این پروفایل‌ها حساب احراز هویت‌شده نیستند و بین مرورگرها یا دستگاه‌ها همگام نمی‌شوند.
 - با میزبانی روی HTTPS، برنامه Service Worker را ثبت می‌کند و فایل‌های اصلی را برای استفاده‌ی آفلاین cache می‌کند.
 - پاک‌کردن داده‌های سایت یا localStorage پیشرفت را پاک می‌کند.
 - برای نصب به‌صورت اپ، از گزینه‌ی Install app مرورگر (در مرورگرهای سازگار) استفاده کنید.
@@ -45,11 +45,11 @@ Open `http://localhost:8080`. Node.js 18+ is required to run `npm test`.
 - Read the staff note; press “Hear note” to listen.
 - Select the corresponding virtual piano key. Answers are MIDI- and octave-sensitive.
 - A correct answer completes the lesson; “Repeat practice” lets you try again without erasing history.
-- “Random practice” starts a 10-question quiz that hides the note name.
+- Rhythm lessons cover note values and rests; choose the matching symbol when prompted.\n- “Random practice” starts a 10-question quiz that hides the note name.
 - Switch Persian/English using the language control.
 
 ### Progress and offline
-Progress is stored locally in this browser only. On HTTPS hosts, the service worker caches the app shell for offline use. Clearing site data clears progress. Compatible browsers may offer “Install app”.
+Learner profiles and progress are stored locally in this browser only. These are not authenticated cloud accounts and do not sync across devices. On HTTPS hosts, the service worker caches the app shell for offline use. Clearing site data clears progress. Compatible browsers may offer “Install app”.
 
 ### Scope
-The current audio is a synthesized sine tone, not a sampled piano. The SVG renderer is for single-note learning, not full score engraving. No user accounts, backend, cloud sync, or microphone-based pitch detection are included.
+The current audio is a synthesized sine tone, not a sampled piano. The SVG renderer is for single-note learning, not full score engraving. No server-backed accounts, cloud sync, or microphone-based pitch detection are included.
