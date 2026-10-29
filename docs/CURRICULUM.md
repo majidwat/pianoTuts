@@ -1,24 +1,40 @@
-# Curriculum
+# Naghmeh — Piano Learning
 
-| Topic | Notes covered |
-|---|---|
-| Treble clef lines | E4, G4, B4, D5, F5 |
-| Treble clef spaces | F4, A4, C5, E5 |
-| Bass clef lines | G2, B2, D3, F3, A3 |
-| Bass clef spaces | A2, C3, E3, G3 |
-| Ledger notes | C4 below treble, C4 above bass, A3 below treble, E2 below bass |
-| Octave identity | G3, G4, G5 |
-| Chromatic notes | C♯4, D♯4, F♯4, G♯4, A♯4 |
-| Mixed review | C4 and A4 |\n| Rhythm | Whole, half, quarter, eighth, sixteenth notes; whole, half, and quarter rests |
+A bilingual Persian/English interactive piano-learning app. It teaches treble and bass clef line/space notes, ledger notes, octave identity, and note-to-key practice.
 
-C3 is the second space of the bass staff (not a ledger note). The current course includes 40 lessons across nine learning groups. Rhythm lessons are answered with a symbol-choice interaction, not the piano-key quiz.
+## Run locally
 
-## Music conventions
+Requires Node.js 18+ for tests. Since the app is static, serve the root directory using any local HTTP server:
 
-- Middle C is MIDI 60 (C4).
-- A4 is MIDI 69 at 440 Hz.
-- Standard piano range is MIDI 21 (A0) through 108 (C8).
-- Treble lines bottom-up: E4 G4 B4 D5 F5.
-- Bass lines bottom-up: G2 B2 D3 F3 A3.
+```bash
+python -m http.server 8080
+```
 
-Lesson additions should use unique stable IDs and MIDI as the single source of pitch truth.
+Then open http://localhost:8080. ES modules and Web Audio work in modern browsers.
+
+## Features
+
+- Persian RTL and English LTR interface.
+- Independent lesson groups for treble and bass line/space notes, ledger examples, octaves, sharp-note lessons, rhythm durations, rests, and review.
+- Inline SVG notation rendering; no external notation image dependencies.
+- Full 88-key piano range (MIDI 21/A0 through MIDI 108/C8).
+- Synthesized note playback and exact MIDI/octave-sensitive answer checking.
+- Selectable learner profiles on one browser, with isolated completion, attempts, assessment scores, and answer history per profile.\n- Direct lesson selection without score-based lesson locks; cumulative practice can include the current and earlier note lessons.\n- Lesson navigation, versioned browser progress, per-note attempt/accuracy stats, and saved assessment summaries.
+- Responsive layout, focus states, and reduced-motion support.
+
+## Tests
+
+```bash
+npm run check
+```
+
+## Documentation
+
+- [User guide (Persian / English)](docs/USER_GUIDE.md)
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Curriculum and music conventions](docs/CURRICULUM.md)
+
+## Privacy and scope
+
+Learner profiles and their progress stay in this browser’s localStorage. Profiles are local learner spaces, not authenticated accounts, and do not sync between devices or browsers. Audio is a synthesized sine tone. The notation view is a single-note teaching renderer, not a full score engraving engine.
