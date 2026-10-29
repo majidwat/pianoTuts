@@ -27,8 +27,8 @@ export function renderStaff(m,clef,{showLabel=true}={}){
  const stem=`<line class="note-stem" x1="${x+10}" y1="${noteY}" x2="${x+10}" y2="${stemEnd}" stroke="#252c38" stroke-width="2"/>`;
  const notehead=`<ellipse class="notehead" cx="${x}" cy="${noteY}" rx="12" ry="8" fill="#b9f27c" stroke="#253322" transform="rotate(-18 ${x} ${noteY})"/>`;
  const clefGlyph=clef==="treble"?"𝄞":"𝄢";
- const clef=`<text x="105" y="95" font-size="65" fill="#414b5c" text-anchor="middle">${clefGlyph}</text>`;
+ const clefMarkup=`<text x="105" y="95" font-size="65" fill="#414b5c" text-anchor="middle">${clefGlyph}</text>`;
  const minY=Math.min(0,staffTop,noteY-28,...ledgerSteps.map(s=>staffBottom-s*8.5))-4;
  const maxY=Math.max(150,staffBottom,noteY+28,...ledgerSteps.map(s=>staffBottom-s*8.5))+4;
- return `<svg viewBox="0 ${minY} 600 ${maxY-minY}" role="img" aria-label="${showLabel?n.name+n.octave:"Identify the note on the staff"}" xmlns="http://www.w3.org/2000/svg">${clef}${lines}${ledger}${accidental}${notehead}${stem}${label}</svg>`;
+ return `<svg viewBox="0 ${minY} 600 ${maxY-minY}" role="img" aria-label="${showLabel?n.name+n.octave:"Identify the note on the staff"}" xmlns="http://www.w3.org/2000/svg">${clefMarkup}${lines}${ledger}${accidental}${notehead}${stem}${label}</svg>`;
 }
