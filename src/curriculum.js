@@ -7,7 +7,11 @@ const l=(id,clef,midi,en,fa,hintEn,hintFa)=>({id,clef,midi,en,fa,hintEn,hintFa})
 {...l("rest-whole","treble",60,"Whole rest · 4 beats","سکوت گرد · ۴ ضرب","A whole rest means silence for four beats.","سکوت گرد یعنی چهار ضرب سکوت."),kind:"rhythm",rhythmId:"whole-rest",symbol:"𝄻",value:4,isRest:true},
 {...l("rest-half","treble",60,"Half rest · 2 beats","سکوت سفید · ۲ ضرب","A half rest means silence for two beats.","سکوت سفید یعنی دو ضرب سکوت."),kind:"rhythm",rhythmId:"half-rest",symbol:"𝄼",value:2,isRest:true},
 {...l("rest-quarter","treble",60,"Quarter rest · 1 beat","سکوت سیاه · ۱ ضرب","A quarter rest means silence for one beat.","سکوت سیاه یعنی یک ضرب سکوت."),kind:"rhythm",rhythmId:"quarter-rest",symbol:"𝄽",value:1,isRest:true}
-]},{id:"flats",name:"Flats · Black keys",fa:"نت‌های بمل · کلیدهای سیاه",lessons:[
+,
+{...l("rhythm-dotted-half","treble",60,"Dotted half note · 3 beats","نت سفید نقطه‌دار · ۳ ضرب","A dot adds half the note's original value: a dotted half lasts three beats.","نقطه نصف کشش اصلی را اضافه می‌کند؛ سفید نقطه‌دار سه ضرب است."),kind:"rhythm",rhythmId:"dotted-half",symbol:"𝅗𝅥.",value:3},
+{...l("rhythm-dotted-quarter","treble",60,"Dotted quarter note · 1½ beats","نت سیاه نقطه‌دار · ۱٫۵ ضرب","A dotted quarter lasts one and a half beats.","سیاه نقطه‌دار یک‌ونیم ضرب کشش دارد."),kind:"rhythm",rhythmId:"dotted-quarter",symbol:"♩.",value:1.5},
+{...l("rest-eighth","treble",60,"Eighth rest · ½ beat","سکوت چنگ · نیم ضرب","An eighth rest means silence for half a beat.","سکوت چنگ یعنی نیم‌ضرب سکوت."),kind:"rhythm",rhythmId:"eighth-rest",symbol:"𝄾",value:0.5,isRest:true},
+{...l("rest-sixteenth","treble",60,"Sixteenth rest · ¼ beat","سکوت دولاچنگ · ربع ضرب","A sixteenth rest means silence for one quarter of a beat.","سکوت دولاچنگ یعنی یک‌چهارم ضرب سکوت."),kind:"rhythm",rhythmId:"sixteenth-rest",symbol:"𝄿",value:0.25,isRest:true}]},{id:"flats",name:"Flats · Black keys",fa:"نت‌های بمل · کلیدهای سیاه",lessons:[
 {...l("flat-Db4","treble",61,"D♭4 · D flat","ر بمل · D♭4","D♭ is one semitone below D4 and is written on the D staff position.","ر بمل یک نیم‌پرده پایین‌تر از ر4 است و جایگاه حرف ر را روی حامل دارد."),spelling:"D♭"},
 {...l("flat-Eb4","treble",63,"E♭4 · E flat","می بمل · E♭4","E♭ is one semitone below E4; its notehead stays on the E line.","می بمل یک نیم‌پرده پایین‌تر از می4 است و روی خط می نوشته می‌شود."),spelling:"E♭"},
 {...l("flat-Gb4","treble",66,"G♭4 · G flat","سل بمل · G♭4","G♭ is one semitone below G4 and uses the G staff position.","سل بمل یک نیم‌پرده پایین‌تر از سل4 است و جایگاه سل را دارد."),spelling:"G♭"},
