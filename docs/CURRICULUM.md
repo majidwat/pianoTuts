@@ -9,9 +9,9 @@
 | Ledger notes | C4 below treble, C4 above bass, A3 below treble, E2 below bass |
 | Octave identity | G3, G4, G5 |
 | Chromatic notes | C♯4, D♯4, F♯4, G♯4, A♯4 |
-| Mixed review | C4 and A4 |
+| Mixed review | C4 and A4 |\n| Rhythm | Whole, half, quarter, eighth, sixteenth notes; whole, half, and quarter rests |
 
-C3 is the second space of the bass staff (not a ledger note). The course currently includes 32 lessons across eight learning groups.
+C3 is the second space of the bass staff (not a ledger note). The current course includes 40 lessons across nine learning groups. Rhythm lessons are answered with a symbol-choice interaction, not the piano-key quiz.
 
 ## Music conventions
 
