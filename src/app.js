@@ -34,7 +34,7 @@ const bodies=fa?[
 "This lesson introduces "+l.en+". A note's name comes from its position on the staff, while its octave identifies the exact pitch.",
 "Look at the note on the staff. "+l.hintEn+" Notice whether the notehead sits on a line or in a space.",
 "Use the nearest reference line and count staff positions from bottom to top. Adjacent lines and spaces are neighboring note steps.",
-"This note maps to piano key "+midiToNote(l.midi).name+midiToNote(l.midi).octave+". Compare the highlighted key with the written position, including its octave.",
+"This note maps to piano key "+(l.spelling||midiToNote(l.midi).name)+midiToNote(l.midi).octave+". Compare the highlighted key with the written position, including its octave.",
 "Listen to the pitch. Hearing and seeing a note together can help reinforce recognition.",
 "The note name is hidden. Read the staff and choose the exact piano key. Both pitch name and octave must match.",
 "That was not the right key yet. "+l.hintEn+" Compare the staff position with the keyboard, then try again.",
